@@ -1,0 +1,32 @@
+.card {
+  border: solid 2px black;
+  border-radius: 4px;
+  padding: 40px 20px;
+  margin: 15px;
+  display: flex;
+  flex: 1 1 175px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card h3 {
+  min-width: 200px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+body {
+  min-width: 375px;
+}
+
+img {
+  max-width: 175px;
+}
+
+#first-project {
+  flex: 3 0 275px;
+}
